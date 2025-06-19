@@ -4,8 +4,8 @@ using namespace std;
 
 class ArithmeticProgression {
 public:
-    float first; // a0 — первый элемент прогрессии
-    int second; // d — разность прогрессии
+    float first; // a0 - первый элемент прогрессии
+    int second; // d - разность прогрессии
 
     void Read(); // ввод с клавиатуры
     void Display(); // вывод результата

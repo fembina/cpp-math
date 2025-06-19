@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 class RangeChecker {
@@ -24,7 +25,7 @@ void RangeChecker::Read() {
 
 bool RangeChecker::rangecheck(double x) {
     // Проверяем принадлежит ли x диапазону [first, second]
-    // При этом предполагается, что first <= second, если нет — поменяем местами
+    // При этом предполагается, что first <= second, если нет - поменяем местами
     double left = first < second ? first : second;
     double right = first > second ? first : second;
 
