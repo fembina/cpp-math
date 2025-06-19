@@ -5,7 +5,7 @@ using namespace std;
 
 bool check_cha_scha(const string& text) {
     for (size_t i = 0; i + 1 < text.length(); i++) {
-        if ((text[i] == 'ч' || text[i] == 'щ') && text[i + 1] == 'я') {
+        if ((text[i] == L'ч' || text[i] == L'щ') && text[i + 1] == L'я') {
             return false; // Ошибка правописания обнаружена
         }
     }
